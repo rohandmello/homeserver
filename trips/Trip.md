@@ -56,7 +56,7 @@
 <br />
 <br />
 
-# Baggabe
+# Baggage
 
 Mumbai Bombay, Chhatrapati Shivaji
 Los Angeles, Los Angeles International Airport
