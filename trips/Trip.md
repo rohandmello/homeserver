@@ -1,9 +1,10 @@
-# BOM - LAX - Tuesday 13 May -- Trip duration: 24h15 - 
+# BOM - LAX - Tuesday 13 May -- Trip duration: 24h15 
 
 ## 1:20 AM Mumbai Bombay, Chhatrapati Shivaji (BOM)
 ```
 1. Trip duration: 9h40
-   1. Operated by: Air France, AF0217Air France
+   1. Operated by: Air France
+   1. AF0217
    1. Aircraft: Airbus A350-900
    1. Travel class Economy
 ```
@@ -14,7 +15,8 @@
 ## 10:30 AM  Paris, Paris-Charles de Gaulle airport (CDG)
 ```
 1. Trip duration: 11h35
-   1. Operated by: Air France, AF0022Air France
+   1. Operated by: Air France 
+   1. AF0022
    1. Aircraft: Boeing 777-300
    1. Travel class Economy
    1. 1:05 PM Los Angeles, Los Angeles International Airport (LAX)
@@ -29,7 +31,8 @@
 ## 1:50 PM Los Angeles, Los Angeles International Airport (LAX)
 ```
 1. Trip duration: 10h15
-   1. Operated by: KLM, KL0602KLM
+   1. Operated by: KLM 
+   1. KL0602
    1. Aircraft: Boeing 787-10
    1. Travel class Economy
 ```
@@ -41,7 +44,8 @@
 ## 12:00 PM Amsterdam, Amsterdam Schiphol Airport (AMS)
 ```
 1. Trip duration: 8h45
-   1. Operated by: KLM, KL0877KLM
+   1. Operated by: KLM
+   1. KL0877
    1. Aircraft: Boeing 777-200
    1. Travel class Economy
    1. 12:15 AM +2 Mumbai Bombay, Chhatrapati Shivaji (BOM) 
