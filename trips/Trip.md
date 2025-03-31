@@ -14,6 +14,7 @@
    MEAL: SNACK/BREAKFAST
    HINDU MEAL (NO PORK OR BEEF) CONFIRMED
    WHEELCHAIR-FOR RAMP CONFIRMED
+   Seat - 25H
 ```
 ### Arrival - 7:30 AM Paris, Paris-Charles de Gaulle airport (CDG)
 ```
@@ -32,7 +33,7 @@
    MEAL: MEAL/MEAL
    HINDU MEAL (NO PORK OR BEEF) CONFIRMED
    WHEELCHAIR-FOR RAMP CONFIRMED
-   
+   Seat - 44E
 ```
 ### Arrival - 1:05 PM Los Angeles, Los Angeles International Airport (LAX)
 ```
@@ -59,6 +60,7 @@
    MEAL: MEAL
    HINDU MEAL CONFIRMED
    WHEELCHAIR-FOR RAMP CONFIRMED
+   Seat - 34D
 ```
 
 ### Arrival 9:05 AM +1 Amsterdam, Amsterdam Schiphol Airport (AMS)
@@ -80,7 +82,7 @@
    MEAL: MEAL
    HINDU MEAL REQUESTED - REQUESTED MEAL IS STANDARD ON BOARD
    WHEELCHAIR-FOR RAMP CONFIRMED
-
+   Seat - 34D
 ```
 ### Arrival - 12:15AM + Mumbai Bombay, Chhatrapati Shivaji (BOM) - OCT 14
 
