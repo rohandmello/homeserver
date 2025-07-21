@@ -17,3 +17,5 @@
 1.  `"Fortune favours the brave"`
 
 1. `"You are a slave to those who you do not forgive, and forever in pain for those those who hurt you"`
+
+1. `"You either die a hero or you live long enough to become a villian."` The Dark Knight - movie
