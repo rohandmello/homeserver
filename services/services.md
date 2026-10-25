@@ -64,16 +64,23 @@
 
 1. Check which php is required  
 2. Update all the php modules to that version [PHP Module Version](https://docs.nextcloud.com/server/latest/admin_manual/installation/php_configuration.html)  
-   1. `apt install php8.2-common php8.2-curl php8.2-dom php8.2-gd php8.2-JSON php8.2-xml php8.2-mbstring php8.2-posix php8.2-zip php8.2-mysql php8.2-intl php8.2-ftp php8.2-smbclient php8.2-bcmath php8.2-gmp php8.2-memcached php8.2-apcu php8.2-redis`
+   1. `apt install php8.5-common php8.5-curl php8.5-dom php8.5-gd php8.5-JSON php8.5-xml php8.5-mbstring php8.5-posix php8.5-zip php8.5-mysql php8.5-intl php8.5-ftp php8.5-smbclient php8.5-bcmath php8.5-gmp php8.5-memcached php8.5-apcu php8.5-redis`
 3. Follow these steps  
    1. `sudo -u www-data php occ maintenance:mode --on`
-   2. `apt-get reinstall libapache2-mod-php8.1`
-   3. `a2enmod php8.1`
-   4. `a2dismod php8.0`
+   2. `apt-get reinstall libapache2-mod-php8.5`
+   3. `a2enmod php8.5`
+   4. `a2dismod php8.3`
    5. `systemctl restart apache2`
    6. `for linkgroup in $(ls /var/lib/dpkg/alternatives/ | grep -E "ph(ar|p)"); do sudo update-alternatives --config $linkgroup; done`
    7. `sudo -u www-data php occ maintenance:mode --off`
-
+4. Update this values in `php.ini` at `/etc/php/8.5/apach2/php.ini`
+   1. `max_execution_time = 500` (to keep the web updater from timing out)
+   1. `max_input_time = 600` (to keep the web updater from timing out)
+   1. `memory_limit = 2G` (required)
+   1. `post_max_size = 5G` (this is required because of below setting)
+   1. `upload_max_filesize = 5G` (for large uploads)  
+5. Remove Older version of PHP only after you are confident that update is completed successfully
+   1. `sudo apt purge "php8.3*"`
 ## **Mysql**
 
 * root:<Your@password>  
